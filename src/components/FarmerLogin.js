@@ -95,7 +95,7 @@ function FarmerLogin()
                                 </form>
                                 <hr className="mt-4"/>
                                 <div className="col-12">
-                                    <p className="text-center mb-0">Have not account yet? <a href="/Buyer-reg">Sign-up</a></p>
+                                    <p className="text-center mb-0">Have not account yet? <a href="/farmer-reg">Sign-up</a></p>
                                     <p className="text-center mb-0"><a href="/forgot-password">Forgot password?</a></p>
                                 </div>
                             </div>

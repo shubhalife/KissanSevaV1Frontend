@@ -92,7 +92,7 @@ function BuyerLogin()
                                 <hr className="mt-4"/>
                                 <div className="col-12">
                                     <p className="text-center mb-0">Have not account yet? <a href="/Buyer-reg">Signup</a></p>
-                                    <p className="text-center mb-0"><a href="/">Forgotten password?</a></p>
+                                    <p className="text-center mb-0"><a href="/forgot-password">Forgotten password?</a></p>
                                 </div>
                             </div>
                         </div>

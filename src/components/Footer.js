@@ -23,15 +23,15 @@ function Footer() {
                         </div>
 
                         <div>
-                            <a href="" class="text-white me-4">
+                            <a href="https://www.instagram.com/agrigoi/?hl=en" class="text-white me-4">
                             <img className="mt-2 me-2" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" style={{height: "30px" , width:"30px"}}></img>
                             </a>
                             
-                            <a href="" class="text-white me-4">
-                            <img className="mt-2 me-2" src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494475.png?token=exp=1649675024~hmac=a37a3ec8c588a1000d0445189d440509" style={{height: "30px" , width:"30px"}}></img>
+                            <a href="/" class="text-white me-4">
+                            <img className="mt-2 me-2" src="https://cdn-icons-png.flaticon.com/512/733/733585.png" style={{height: "30px" , width:"30px"}}></img>
                             </a>
-                            <a href="" class="text-white me-4">
-                            <img className="mt-2 me-2" src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494477.png?token=exp=1649675024~hmac=e1a3e2e25301ed215e69f04db6bf8666" style={{height: "30px" , width:"30px"}}></img>
+                            <a href="/" class="text-white me-4">
+                            <img className="mt-2 me-2" src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" style={{height: "30px" , width:"30px"}}></img>
                             </a>
                             
                         </div>
@@ -45,12 +45,12 @@ function Footer() {
 
                                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                                    <h6 class="text-uppercase fw-bold">kisanSEVA</h6>
+                                    <h6 class="text-uppercase fw-bold">KissanSeva</h6>
                                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                                     <p>
-                                        Here you can use rows and columns to organize your footer
-                                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit.
+                                        KissaSeva is web application developed for farmers,
+                                        essentially creating an online farmers market 
+                                        to offers consistent connection between all producers and buyers.
                                     </p>
                                 </div>
 
@@ -62,16 +62,13 @@ function Footer() {
                                         style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
                                     />
                                     <p>
-                                        <a href="#!" class="text-white">MDBootstrap</a>
+                                        <a href="#!" class="text-white">Agro Market</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-white">MDWordPress</a>
+                                        <a href="#!" class="text-white">Crops</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-white">BrandFlow</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">Bootstrap Angular</a>
+                                        <a href="#!" class="text-white">InfoService</a>
                                     </p>
                                 </div>
 
@@ -107,10 +104,10 @@ function Footer() {
                                         class="mb-4 mt-0 d-inline-block mx-auto"
                                         style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
                                     />
-                                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                                    <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                                    <p><i class="fas fa-home mr-3"></i> India</p>
+                                    <p><i class="fas fa-envelope mr-3"></i> KissanSevaInfo.com</p>
+                                    <p><i class="fas fa-phone mr-3"></i> + 91 234 567 88</p>
+                                    <p><i class="fas fa-print mr-3"></i> + 91 234 567 89</p>
                                 </div>
 
                             </div>
@@ -122,9 +119,9 @@ function Footer() {
                         class="text-center p-3"
                         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
                     >
-                        © 2020 Copyright:
+                        © 2022 Copyright:
                         <a class="text-white" href="https://mdbootstrap.com/"
-                        >MDBootstrap.com</a
+                        >KissanSeva.com</a
                         >
                     </div>
 

@@ -1,9 +1,12 @@
-
-function ErrorPage(){
-    return(
-        <div>
-            <center><h6>Page Not Found</h6></center>
+function ErrorPage() {
+  return (
+    <div>
+      <center>
+        <div class="alert alert-danger" role="alert">
+          Page Not Found
         </div>
-    )
+      </center>
+    </div>
+  );
 }
 export default ErrorPage;
