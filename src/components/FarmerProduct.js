@@ -51,7 +51,7 @@ function Product(){
         <div>
             
             <div className="d-flex justify-content-end">
-                <button type="button" className="btn btn-danger mt-3" ><Link className="dropdown-item" to="/farmer/custom-product">Add Your Product</Link></button>
+                <button type="button" className="btn btn-success mt-3" ><Link className="dropdown-item" to="/farmer/custom-product">Add Your Product</Link></button>
             </div>
 
 
@@ -68,7 +68,7 @@ function Product(){
                 <h5 className="card-title">Wheat (गेहूं)</h5>
                 <p className="card-text">गेहूँ मध्य पूर्व के लेवांत क्षेत्र से आई एक घास है, जिसकी खेती दुनिया भर में की जाती है।</p>
                 
-                <button type="button" className="btn btn-danger mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"  name="crop" value="wheat" onClick={addProduct}>Add Product</button>
+                <button type="button" className="btn btn-success mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"  name="crop" value="wheat" onClick={addProduct}>Add Product</button>
             </div>
             </div>
 
@@ -77,14 +77,14 @@ function Product(){
             <div className="card-body">
                 <h5 className="card-title">Cotton (कपास)</h5>
                 <p className="card-text">भारत में कपास की खेती लगभग 6 मिलियन किसानों को प्रत्यक्ष तौर पर आजीविका प्रदान करता है और 40 से 50 लाख लोग इसके व्यापार या प्रसंस्करण में कार्यरत है। कई लोगो के लिए कपास कमाई का साधन भी है।</p>
-                <button type="button" className="btn btn-danger mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"  name="crop" value="cotton" onClick={addProduct}>Add Product</button>
+                <button type="button" className="btn btn-success mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"  name="crop" value="cotton" onClick={addProduct}>Add Product</button>
             </div>
             </div>
 
             <div className="col-3 card p-4 mt-4 mb-4 me-4 ms-4" style={{width: "18rem"}}>
             <img src="https://www.agrifarming.in/wp-content/uploads/2015/05/Bajra-seed.jpg" className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Corn (मक्का)</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
@@ -93,7 +93,7 @@ function Product(){
             <div className="col-3 card p-4 mt-4 mb-4 me-4 ms-4" style={{width: "18rem"}}>
             <img src="https://www.grainmart.in/news/wp-content/uploads/2019/07/Jowar.jpg" className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Jowar (ज्वार)</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
@@ -102,7 +102,7 @@ function Product(){
             <div className="col-3 card p-4 mt-4 mb-4 me-4 ms-4" style={{width: "18rem"}}>
             <img src="https://www.world-grain.com/ext/resources/Article-Images/2020/12/GMR_Rice_AdobeStock_64819529_E_Nov.jpg?t=1609338918&width=1080" className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Rice (चावल)</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
@@ -111,7 +111,7 @@ function Product(){
             <div className="col-3 card p-4 mt-4 mb-4 me-4 ms-4" style={{width: "18rem"}}>
             <img src="https://gardenerspath.com/wp-content/uploads/2019/09/How-to-Plant-and-Grow-Cabbage-Cover.jpg" className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Cabbage (पत्ता गोभी)</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>

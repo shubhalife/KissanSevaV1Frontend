@@ -174,8 +174,8 @@ function BuyerProfile()
                     </tr>
 
                     <tr>
-                        
-                        {! passwordflag && <td><button type="button" name="password" class="btn btn-link" onClick={handleFlag}>change password</button></td>}
+                         <td>Password :</td>
+                        {! passwordflag && <td><button type="button" name="password" class="btn btn-link" onClick={handleFlag}>change</button></td>}
                         {passwordflag && <td><input type="text" name="password" class="form-control"  placeholder="Enter New password" 
                         value={changeInfo.password}
                         onChange={handleChange}/></td>}

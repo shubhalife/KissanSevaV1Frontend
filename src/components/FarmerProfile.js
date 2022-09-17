@@ -245,7 +245,11 @@ function FarmerProfile()
                                     </div>
                                     <hr/>
                                     <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-3">
+                                        <h6 class="mb-0 mt-3">Password :</h6>
+                                        </div>
+                                        <div class="col-sm-3 mt-3 text-secondary"></div>
+                                        <div class="col-sm-6 mt-2 text-secondary">
                                             <center>{! passwordflag && <button type="button" name="password" class="btn btn-link" onClick={handleFlag}>change password</button>}
                         {passwordflag && <input type="text" name="password" class="form-control"  placeholder="Enter New password" 
                         value={changeInfo.password}
