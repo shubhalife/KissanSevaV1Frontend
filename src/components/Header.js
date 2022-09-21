@@ -2,6 +2,7 @@ import react from "react";
 import { Link } from "react-router-dom";
 import AuthenticateService from "./AuthenticateService";
 import "./header.css";
+import { Clock, Grommet } from "grommet";
 
 function Header() {
   const myStyle = {
@@ -27,6 +28,11 @@ function Header() {
             />
             <strong>KisanSeva</strong>
           </a>
+          <strong>
+            <Grommet>
+              <Clock type="digital" />
+            </Grommet>
+          </strong>
 
           <button
             className="navbar-toggler rounded-sm"
