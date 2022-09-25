@@ -1,62 +1,61 @@
-import React, { useState } from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
-import { Link } from 'react-router-dom';
-import './AdminSideBar.css';
-import { IconContext } from 'react-icons';
+import React, { useState } from "react";
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
+import * as IoIcons from "react-icons/io";
+import { Link } from "react-router-dom";
+import "./AdminSideBar.css";
+import { IconContext } from "react-icons";
 
 function AdminSideBar() {
   const [sidebar, setSidebar] = useState(false);
 
-   const SidebarData = [
+  const SidebarData = [
     {
-      title: 'Home',
+      title: "Home",
       path: `/`,
       icon: <AiIcons.AiFillHome />,
-      cName: 'nav-text'
+      cName: "nav-text",
     },
     {
-      title: 'See Buyers',
-      path: `/`,
+      title: "See Buyers",
+      path: `/buyer-list`,
       icon: <IoIcons.IoMdPeople />,
-      cName: 'nav-text'
+      cName: "nav-text",
     },
     {
-      title: 'See Farmers',
-      path: '/farmer-product',
+      title: "See Farmers",
+      path: "/farmer-list",
       icon: <IoIcons.IoMdPeople />,
-      cName: 'nav-text'
+      cName: "nav-text",
     },
     {
-      title: 'See Orders',
-      path: `/`,
+      title: "See Orders",
+      path: "/order-list",
       icon: <FaIcons.FaCartPlus />,
-      cName: 'nav-text'
+      cName: "nav-text",
     },
     {
-      title: 'See Products',
-      path: `/`,
+      title: "See Products",
+      path: "/product-list",
       icon: <FaIcons.FaEnvelopeOpenText />,
-      cName: 'nav-text'
+      cName: "nav-text",
     },
-    
   ];
 
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
-        <div >
-          <Link to='#' className='menu-bars'>
+      <IconContext.Provider value={{ color: "#fff" }}>
+        <div>
+          <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
         </div>
-        <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
-            <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars'>
+        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+          <ul className="nav-menu-items" onClick={showSidebar}>
+            <li className="navbar-toggle">
+              <Link to="#" className="menu-bars">
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
@@ -78,5 +77,3 @@ function AdminSideBar() {
 }
 
 export default AdminSideBar;
-
-     
